@@ -249,6 +249,6 @@
 .hdk-information>img{
 	width: 30px;
 	position: absolute;
-	/*top: 21px;*/
+	top: 21px;
 	left: 20%;
 }
