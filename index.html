@@ -4,9 +4,12 @@
 	<title>微信首页</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=yes">
+	<link rel="stylesheet" href="css/style.css">	
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/iscroll.js"></script>
 </head>
 <body>
 	<div class="zzsc-container">
@@ -26,9 +29,9 @@
 					        <div class="swiper-slide"><img src="img/2.jpg"></div>
 					        <div class="swiper-slide"><img src="img/1.jpg"></div>
 					        <div class="swiper-slide"><img src="img/2.jpg"></div>
-					        <div class="swiper-slide"><img src="img/1.jpg"></div>
+					        <div class="swiper-slide"><img src
 					        <div class="swiper-slide"><img src="img/2.jpg"></div>
-					        </div>
+					    </div>
 					        <div class="swiper-pagination"></div>
 					</div>
 				</div>
@@ -37,20 +40,20 @@
 		</div>
 	</div>
 	<div class="hdk-skin">
-			<a name="gettop"></a>
-			<div class="hdk-Total">
-			<li>
+		<a name="gettop"></a>
+		<div class="hdk-Total">
+				<li>
 				<span>2018</span>
 				<p>选手参与</p>
-			</li>
-			<li style="border-left: 1px solid #ffffff24;">
+				</li>
+				<li style="border-left: 1px solid #bfbfbf;">
 				<span>66666</span>
 				<p>累计投票</p>
-			</li>
-			<li style="border-left: 1px solid #ffffff24;">
+				</li>
+				<li style="border-left: 1px solid #bfbfbf;">
 				<span>888888</span>
 				<p>访问量</p>
-			</li>
+				</li>
 		</div>
 		<div class="hdk-time">
 			<div class="hdk-search">
@@ -86,96 +89,264 @@
 			</div>
 		</div>
 		<div class="hdk-width">
-			<div class="hdk-Catalog">
-				<div class="hdk-list hdk-active">
-					<a href="链接">默认排序</a>
-				</div>
-				<div class="hdk-list">
-					<a href="链接">最新参与</a>
-				</div>
-				<div class="hdk-list">
-					<a href="链接">人气排行</a>
-				</div>
-			</div>
+			<ul class="hdk-Catalog">
+				<li class="hdk-list hdk-active">
+					<span>默认排序</span>
+				</li>
+				<li class="hdk-list">
+					<span>最新参与</span>
+				</li>
+				<li class="hdk-list">
+					<span>人气排行</span>
+				</li>
+			</ul>
 		</div>
-		<div class="hdk-Player">
-			<div class="hdk-picture">
-				<a href="Player.html"><img src="img/cc.png"></a>
-				<div class="hdk-information">
-					<span>
-						<div class="hdk-order"><p>1</p></div>
-						<h5>杨柳</h6>
-						<p>1234票</p>
-					</span>
-					<img src="img/love.png">
-					<button>投票</button>
-				</div>
-			</div>
-			<div class="hdk-picture">
-				<a href="Player.html"><img src="img/bb.png"></a>
-				<div class="hdk-information">
-					<span>
-						<div class="hdk-order"><p>2</p></div>
-						<h5>杨建</h6>
-						<p>1234票</p>
-					</span>
-					<img src="img/love.png">
-					<button>投票</button>
-				</div>
-			</div>
+		<div id="wrapper">
+			<div class="scroller">	
+				<ul class="hdk-Player">
+					<div class="tab">
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/cc.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>1</p></div>
+									<h6>杨柳</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+						
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/cc.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>2</p></div>
+									<h6>杨建</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
 
-			<div class="hdk-picture">
-				<a href="Player.html"><img src="img/Player.png"></a>
-				<div class="hdk-information">
-					<span>
-						<div class="hdk-order"><p>3</p></div>
-						<h5>千千</h6>
-						<p>1234票</p>
-					</span>
-					<img src="img/love.png">
-					<button>投票</button>
-				</div>
-			</div>
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/Player.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>3</p></div>
+									<h6>千千</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
 
-			<div class="hdk-picture">
-				<a href="Player.html"><img src="img/cc.png"></a>
-				<div class="hdk-information">
-					<span>
-						<div class="hdk-order"><p>4</p></div>
-						<h5>杨华</h6>
-						<p>1234票</p>
-					</span>
-					<img src="img/love.png">
-					<button>投票</button>
-				</div>
-			</div>
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/Player.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>4</p></div>
+									<h6>杨华</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
 
-			<div class="hdk-picture">
-				<a href="Player.html"><img src="img/aa.png"></a>
-				<div class="hdk-information">
-					<span>
-						<div class="hdk-order"><p>4</p></div>
-						<h5>杨华</h6>
-						<p>1234票</p>
-					</span>
-					<img src="img/love.png">
-					<button>投票</button>
-				</div>
-			</div>	
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/aa.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>5</p></div>
+									<h6>杨华</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
 
-			<div class="hdk-picture">
-				<a href="Player.html"><img src="img/Player.png"></a>
-				<div class="hdk-information">
-					<span>
-						<div class="hdk-order"><p>3</p></div>
-						<h5>千千</h6>
-						<p>1234票</p>
-					</span>
-					<img src="img/love.png">
-					<button>投票</button>
-				</div>
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/bb.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>6</p></div>
+									<h6>千千</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>		
+					</div>
+					<div class="list">
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/1.jpg"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>1</p></div>
+									<h6>杨柳aaa</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+						
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/222.jpg"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>2</p></div>
+									<h6>杨建bbb</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/4.jpg"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>3</p></div>
+									<h6>千千ccc</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/cc.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>4</p></div>
+									<h6>杨华ddd</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/a2.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>4</p></div>
+									<h6>杨华</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/Player.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>3</p></div>
+									<h6>千千</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+							
+					</div>
+					<div class="list">
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/cc.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>1</p></div>
+									<h6>杨柳111</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+						
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/bb.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>2</p></div>
+									<h6>杨建222</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/Player.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>3</p></div>
+									<h6>千千333</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/cc.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>4</p></div>
+									<h6>杨华444</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/aa.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>4</p></div>
+									<h6>杨华</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>
+
+						<div class="hdk-picture">
+							<a href="Player.html"><img src="img/Player.png"></a>
+							<div class="hdk-information">
+								<span>
+									<div class="hdk-order"><p>3</p></div>
+									<h6>千千</h6>
+									<p>1234票</p>
+								</span>
+								<img src="img/love.png">
+								<button>投票</button>
+							</div>
+						</div>		
+					</div>					
+				</ul>
+				<p style="clear: both;"></p>
+				<div class="more"><i class="pull_icon"></i><span>上拉加载...</span></div>
+				
 			</div>
-			<p style="clear: both;"></p>
 		</div>
 
 		<div class="hdk-lower-skin">
@@ -222,8 +393,6 @@
         	</div>
 		</div>
 	</div>
-
-
 	<script src="js/swiper.min.js"></script>
     <script>
     		var swiper = new Swiper('.swiper-container', {
@@ -234,11 +403,71 @@
 	        spaceBetween: 30,
 	        centeredSlides: true,
 	        autoplay: 2500,
-	        autoplayDisableOnInteraction: false
-	    });
+	        autoplayDisableOnInteraction: false 
+	    });	
     </script>
+	<script>
+		var myscroll = new iScroll("wrapper",{
+			onScrollMove:function(){
+				if (this.y<(this.maxScrollY)) {
+					$('.pull_icon').addClass('flip');
+					$('.pull_icon').removeClass('loading');
+					$('.more span').text('释放加载...');
+				}else{
+					$('.pull_icon').removeClass('flip loading');
+					$('.more span').text('上拉加载...')
+				}
+			},
+			onScrollEnd:function(){
+				if ($('.pull_icon').hasClass('flip')) {
+					$('.pull_icon').addClass('loading');
+					$('.more span').text('加载中...');
+					pullUpAction();
+				}
+				
+			},
+			onRefresh:function(){
+				$('.more').removeClass('flip');
+				$('.more span').text('上拉加载...');
+			}
+			
+		});
+		
+		function pullUpAction(){
+			setTimeout(function(){
+				// $.ajax({
+				// 	url:'/json/ay.json',
+				// 	type:'get',
+				// 	dataType:'json',
+				// 	success:function(data){
+				// 		for (var i = 0; i < 5; i++) {
+				// 			$('.scroller ul').append(data);
+				// 		}
+				// 		myscroll.refresh();
+				// 	},
+				// 	error:function(){
+				// 		console.log('error');
+				// 	},
+				// })
+				for (var i = 0; i < 5; i++) {
+					var i='<div class="hdk-picture">							<a href="Player.html"><img src="img/aa.png"></a>							<div class="hdk-information">								<span>									<div class="hdk-order"><p>4</p></div>									<h6>杨华</h6>									<p>1234票</p>								</span>								<img src="img/love.png">								<button>投票</button>							</div>						</div>						<div class="hdk-picture">							<a href="Player.html"><img src="img/Player.png"></a>							<div class="hdk-information">								<span>									<div class="hdk-order"><p>3</p></div>									<h6>千千</h6>									<p>1234票</p>								</span>								<img src="img/love.png">								<button>投票</button>							</div>						</div>'
 
+					$('.tab').append(i);
+				}
+				myscroll.refresh();
+			}, 1000)
+		}
+		if ($('.scroller').height()<$('#wrapper').height()) {
+			$('.more').hide();
+			myscroll.destroy();
+		}
+	</script>    
 </body>
-<!-- <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/WeChat1.js"></script> -->
+<script type="text/javascript" src="js/Player.js"></script>
+<script type="text/javascript">
+	// $('.tab')height(function(){
+	// 	this='958px';
+	// 	alert(1)
+	// });
+</script>
 </html>
