@@ -1,0 +1,254 @@
+.swiper-slide>img{
+	 width: 100%;
+}
+.hdk-skin{
+	max-width: 500px;
+	min-height: 320px;
+	margin:0 auto;
+	position: relative;
+}
+
+.hdk-Music>a>img{
+	width: 40px;
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	z-index: 5;
+}
+.hdk-click{
+	width: 48px;
+	position: absolute;
+	top: 88%;
+	left: 50%;
+	margin-left:-24px;
+}
+.hdk-click>li{
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	margin: 2px 2px;
+}
+.hdk-Total{
+	height: 45px;
+	border-bottom: 1px solid #fbb9bb;
+}
+.hdk-Total>li{
+	width: 33%;
+	float: left;
+	margin: 5px 0px;	
+}
+.hdk-Total>li>span{
+	font-size: 14px;
+	display: block;
+	text-align:center;
+	color: #fff;
+}
+.hdk-Total>li>p{
+	font-size: 10px;
+	text-align: center;
+	color: #fff;
+}
+.hdk-time{
+	width: 90%;
+	height: 173px;
+	margin: 10px auto;
+	background: #fff;
+	border-radius: 5px;
+}
+.hdk-search{
+	max-width: 500px;
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	margin: 6px auto;
+}
+.hdk-search>button{
+	outline:none;
+	margin:5px;
+	border-style: none;
+	background: none;
+}
+.hdk-search>button>img{
+	width: 20px;
+	vertical-align:bottom;
+}
+.hdk-search>input{
+	font-size: 12px;
+	outline:none;
+	width: 85%;
+	height: 30px;
+	border-style:none;
+	padding-left: 8px;
+	vertical-align: top;
+}
+.hdk-activity{
+	max-width: 500px;
+	width: 100%;
+	background: #f8f8f8;
+	height: 80px;
+}
+.hdk-introduce{
+	background: #f0f0f0;
+	width: 25%;
+	height: 100%;
+	max-width: 500px;
+	float: left;
+	text-align: center;
+}
+.hdk-introduce>img{
+	margin-top: 10px;
+	width: 35px;
+}
+.hdk-introduce>p{
+	font-size: 14px;
+	color: #f7476d;
+}
+.hdk-End{
+	width: 75%;
+	margin-top: 5px;
+	text-align: center;
+	float: right;
+}
+.hdk-End>img{
+	width: 30px;
+	vertical-align: middle;
+	margin: 5px;
+}
+.hdk-End>p{
+	font-size: 14px;
+	color: #8a8a8a;
+	display: inline-block;
+	text-align: center;
+	margin: auto 0px;
+}
+.hdk-day{
+	width: 75%;
+	float: right;
+	text-align:center;
+}
+.hdk-day>p{
+	font-size: 14px;
+	line-height: 25px;
+	color: #bfbfbf;
+}
+.hdk-day>p>span{
+	color: #8a8a8a;
+	font-size: 16px;
+}
+.hdk-immediately{
+	width: 100%;
+	max-width: 500px;
+	margin: 8px auto;
+	text-align: center;
+}
+.hdk-immediately>button{
+	outline:none;
+	width: 33%;
+    height: 35px;
+    background: linear-gradient(to right, rgba(247,71,109,0.9),rgba(254,89,95,1));
+    /*background: #f7476d;*/
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+.hdk-width{
+	width: 100%;
+	max-width: 500px;
+	height: 40px;
+}
+.hdk-Catalog{
+	width: 81%;
+	margin: 0 auto;
+	height: 40px;
+}
+.hdk-list{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+	line-height: 40px;  
+	font-size: 12px;	
+}
+.hdk-list span{
+	 color:#fbb9bb;
+}
+.hdk-active{
+	border-bottom:1px solid #fff;
+}
+.hdk-active span{
+	 color:#fff;
+} 
+.hdk-Player{
+	width: 95%; 
+	margin: 10px auto;
+	text-align: center;
+}
+.list{
+ display: none;
+}
+.hdk-picture{
+	float:left;
+	width: 48%;
+	background: #fff;
+	margin-left: 10px;
+	margin: 1%;
+}
+.hdk-picture>a>img{
+	width: 100%;
+	max-width: 500px;
+	height: 200px;
+}
+.hdk-information>span{
+	height: 20px;
+	max-width: 500px;
+	width: 100%;
+	display: inline-block;
+}
+.hdk-order{
+	margin: 2px 10px;
+	float: left;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border:1px solid #bfbfbf;
+	border-radius: 50%;
+}
+.hdk-order>p{
+	font-size: 12px;
+	margin: auto;
+	text-align: center;
+	color: #bfbfbf;
+}
+.hdk-information>span>p{
+	float: right;
+	display: inline-block;
+	font-size: 14px;
+	color: #f97c97;
+	margin-right: 10px;
+}
+.hdk-information>span>h5{
+	float: left;
+	display: inline-block;
+	 margin: 2px auto;
+}
+.hdk-information{
+	position: relative;
+}
+.hdk-information>button{
+	width: 90%;
+	height: 25px;
+	background: linear-gradient(to right, rgba(247,71,109,0.9),rgba(254,89,95,1));
+	border:none;
+	border-radius: 4px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.hdk-information>img{
+	width: 30px;
+	position: absolute;
+	top: 21px;
+	left: 20%;
+}
