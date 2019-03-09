@@ -1,7 +1,7 @@
 /*--base.css--*/
 *{margin: 0px;padding: 0px;}
 li{list-style: none;}
-body{font-family: Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;max-width:500px;min-width:320px; margin: 0 auto;position: relative;}
+body{max-width:500px;min-width:320px; margin: 0 auto;position: relative;}
 /*body:before{content: ' ';position: fixed;z-index: -1;top: 0;right: 0;bottom: 0;left: 0;background: url(../img/bg6.png) center 0 no-repeat;background-size: cover;background: linear-gradient(to right, rgba(247,71,109,0.9),rgba(254,89,95,1));}*/
 a{text-decoration:none;}
 .disappear{font-size: 35px;line-height: 35px;text-align: center; color: #fff; width: 35px;height: 35px; border:2px solid #ccc;border-radius: 50%;position:fixed;bottom: 20%;left: 50%;margin-left: -21px;}
