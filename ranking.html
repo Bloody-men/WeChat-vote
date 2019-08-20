@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>排行榜</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/themes.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+	<header class="hdk">
+		<a name="gettop"></a>
+		<div class="hdk-top">
+			<a class="click_return" href="index.html"><img style="width: 60%" src="img/left.png"></a>
+			<h3>- 排行榜 -</h3>
+		</div>
+	</header>		 
+	<main class="hdk">
+		<div class="grouping">
+			<div id="select">
+				<i></i>
+				<span class="checkspan">全部分组</span>
+				<ul>
+					<li data="1" class="click_change_bgcolor" style=" border-top: 1px dashed #eee;">分组1</li>
+					<li data="2" class="click_change_bgcolor">分组2</li>
+					<li data="3" class="click_change_bgcolor">分组3</li>
+					<li data="4" class="click_change_bgcolor">分组5</li>
+					<li class="click_change_bgcolor">分组6</li>
+				</ul>
+			</div>
+		</div> 
+		<!-- 选手列表 -->				
+		<main class="moreload">
+			<ul class="module ">
+				<li>
+					<span class="module_sort">1</span>
+					<span class="module_avatar"><img style="width: 100%;height: 100%;" src="picture/cs2.jpg" alt="选手头像"></span>
+					<div style="display: block;-webkit-flex-grow: 1;">
+						<h2 class="module_txt1">互动酷酷酷酷酷互动酷酷酷酷酷互动酷酷酷酷酷</h2>
+						<p class="module_txt1 module_txt2">选手介绍</p>
+					</div>
+					<div class="module_btn">
+						<span class="btn">投票就</span>
+						<p class="module_txt1 module_txt2">4567 票</p>
+					</div>
+				</li>
+				<li>
+					<span class="module_sort">2</span>
+					<span class="module_avatar"><img style="width: 100%;height: 100%;" src="picture/cs3.jpg" alt="选手头像"></span>
+					<div style="display: block;-webkit-flex-grow: 1;">
+						<h2 class="module_txt1">杨柳</h2>
+						<p class="module_txt1 module_txt2">选手介绍</p>
+					</div>
+					<div class="module_btn">
+						<span class="btn">投票第三</span>
+						<p class="module_txt1 module_txt2">4567 票</p>
+					</div>
+				</li>
+				<li>
+					<span class="module_sort">3</span>
+					<span class="module_avatar"><img style="width: 100%;height: 100%;" src="picture/cs2.jpg" alt="选手头像"></span>
+					<div style="display: block;-webkit-flex-grow: 1;">
+						<h2 class="module_txt1">杨柳</h2>
+						<p class="module_txt1 module_txt2">选手介绍虽然已经有么有么人</p>
+					</div>
+					<div class="module_btn">
+						<span class="btn">投票的事实</span>
+						<p class="module_txt1 module_txt2">4567 票</p>
+					</div>
+				</li>
+				<li>
+					<span class="module_sort">4</span>
+					<span class="module_avatar"><img style="width: 100%;height: 100%;" src="picture/cs3.jpg" alt="选手头像"></span>
+					<div style="display: block;-webkit-flex-grow: 1;">
+						<h2 class="module_txt1">杨柳</h2>
+						<p class="module_txt1 module_txt2">选手介绍</p>
+					</div>
+					<div class="module_btn">
+						<span class="btn">投票收费</span>
+						<p class="module_txt1 module_txt2">4567 票</p>
+					</div>
+				</li>
+				<li>
+					<span class="module_sort">5</span>
+					<span class="module_avatar"><img style="width: 100%;height: 100%;" src="picture/cs2.jpg" alt="选手头像"></span>
+					<div style="display: block;-webkit-flex-grow: 1;">
+						<h2 class="module_txt1">杨柳</h2>
+						<p class="module_txt1 module_txt2">选手介绍</p>
+					</div>
+					<div class="module_btn">
+						<span class="btn">投票</span>
+						<p class="module_txt1 module_txt2">4567 票</p>
+					</div>
+				</li>
+				<li>
+					<span class="module_sort">6</span>
+					<span class="module_avatar"><img style="width: 100%;height: 100%;" src="picture/cs4.jpg" alt="选手头像"></span>
+					<div style="display: block;-webkit-flex-grow: 1;">
+						<h2 class="module_txt1">杨柳</h2>
+						<p class="module_txt1 module_txt2">选手介绍</p>
+					</div>
+					<div class="module_btn">
+						<span class="btn">投票</span>
+						<p class="module_txt1 module_txt2">4567 票</p>
+					</div>
+				</li>
+				<li>
+					<span class="module_sort">7</span>
+					<span class="module_avatar"><img style="width: 100%;height: 100%;" src="picture/cs2.jpg" alt="选手头像"></span>
+					<div style="display: block;-webkit-flex-grow: 1;">
+						<h2 class="module_txt1">杨柳</h2>
+						<p class="module_txt1 module_txt2">选手介绍</p>
+					</div>
+					<div class="module_btn">
+						<span class="btn">投票</span>
+						<p class="module_txt1 module_txt2">4567 票</p>
+					</div>
+				</li>
+			</ul>
+			<ul class="lists">加载中...</ul>
+		</main>
+			<div class="more"><a href="javascript:;" onClick="moreload.loadMore();">查看更多...</a></div>
+	</main>
+	<!-- 回顶部 -->
+	<footer>
+		<div class="center hdk" style="text-align: center;">
+			<div class="hdk-copyright">技术支持：互动酷</div>
+		</div>		
+	</footer>
+			<a href="#gettop" class="gettop"><img src="img/top.png"></a>			
+</body>
+<script type="text/javascript" src="js/player.js"></script>
+</html>
